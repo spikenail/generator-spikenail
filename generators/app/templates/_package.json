@@ -1,0 +1,21 @@
+{
+  "name": "<%= name %>",
+  "version": "1.0.0",
+  "description": "<%= name %>",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --harmony-async-await index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "UNLICENSED",
+  "dependencies": {
+    "babel-polyfill": "^6.20.0",
+    "babel-register": "^6.18.0",
+    "spikenail": "^0.1.0"
+  },
+  "devDependencies": {
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-transform-async-to-generator": "^6.16.0",
+    "babel-preset-es2015-node5": "^1.2.0"
+  }
+}

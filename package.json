@@ -1,0 +1,27 @@
+{
+  "name": "generator-spikenail",
+  "version": "0.1.0",
+  "description": "Yeoman generator for spikenail",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "yeoman-generator",
+    "spikenail"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spikenail/generator-spikenail.git"
+  },
+  "author": "Igor Lesnenko <igor.lesnenko@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/spikenail/generator-spikenail/issues"
+  },
+  "homepage": "https://github.com/spikenail/generator-spikenail#readme",
+  "dependencies": {
+    "mkdirp": "^0.5.1",
+    "yeoman-generator": "^1.0.1"
+  }
+}
