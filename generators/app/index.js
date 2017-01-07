@@ -46,6 +46,11 @@ module.exports = class extends Generator {
       this.destinationPath('.gitignore')
     );
 
+    this.fs.copyTpl(
+      this.templatePath('sources.js'),
+      this.destinationPath('config/sources.js')
+    );
+
     mkdirp.sync('models');
   }
 
