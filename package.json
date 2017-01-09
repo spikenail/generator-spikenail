@@ -1,6 +1,6 @@
 {
   "name": "generator-spikenail",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Yeoman generator for spikenail",
   "main": "index.js",
   "scripts": {
@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/spikenail/generator-spikenail#readme",
   "dependencies": {
+    "lodash.upperfirst": "^4.3.1",
     "mkdirp": "^0.5.1",
     "yeoman-generator": "^1.0.1"
   }
