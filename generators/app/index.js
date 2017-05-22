@@ -51,6 +51,11 @@ module.exports = class extends Generator {
       this.destinationPath('config/sources.js')
     );
 
+    this.fs.copyTpl(
+      this.templatePath('api.test.js'),
+      this.destinationPath('__tests__/api.test.js')
+    );
+
     mkdirp.sync('models');
   }
 

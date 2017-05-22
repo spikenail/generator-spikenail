@@ -4,18 +4,21 @@
   "description": "<%= name %>",
   "main": "index.js",
   "scripts": {
-    "start": "node --harmony-async-await index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "test": "jest"
   },
   "license": "UNLICENSED",
   "dependencies": {
     "babel-polyfill": "^6.20.0",
     "babel-register": "^6.18.0",
-    "spikenail": "0.4.x"
+    "spikenail": "0.4.x",
+    "supertest": "^3.0.0"
   },
   "devDependencies": {
+    "babel-jest": "^20.0.3",
     "babel-plugin-add-module-exports": "^0.2.1",
     "babel-plugin-transform-async-to-generator": "^6.16.0",
-    "babel-preset-es2015-node5": "^1.2.0"
+    "babel-preset-es2015-node5": "^1.2.0",
+    "jest": "^20.0.3"
   }
 }
