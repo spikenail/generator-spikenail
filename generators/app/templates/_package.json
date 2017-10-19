@@ -11,7 +11,7 @@
   "dependencies": {
     "babel-polyfill": "^6.20.0",
     "babel-register": "^6.18.0",
-    "spikenail": "0.4.x",
+    "spikenail": "0.17.x",
     "supertest": "^3.0.0"
   },
   "devDependencies": {
